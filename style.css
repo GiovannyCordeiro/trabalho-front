@@ -1,0 +1,162 @@
+
+
+header {
+    color: rgb(0, 0, 8);
+    text-align: center;
+    font-size: 24px;
+}
+
+.logo {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 38px;
+}
+
+.informative-box {
+    background-color: rgb(5, 3, 1); /*define cor de fundo*/
+    padding: 60px; /*adiciona espaço, ou seja, afasta o conteúdo das bordas*/
+    margin-top: 180px; /*adiciona espaço acima do elemento*/
+    margin-left: auto; /*faz alinhamento auto à esquerda*/
+    margin-right: auto; /*faz alinhamento aut à direita*/
+    margin: auto; /*simplifica as três propriedades anteriores, centralizando horizontalmente*/
+    width: 80%; /*define largura do elemento*/
+    border-radius: 8px; /*arredonda as bordas*/
+    display: flex; /*ativa o layout flexível, permitino flexbox*/
+    justify-content: center; /*fixa o elemento em uma posição específica na janela de visualização*/
+    gap: 20px; /*adiciona espaço entre os elementos flex*/
+}
+
+.info-title {
+    font-size: 24px;
+    font-family:;
+    text-align: center;
+    color: white;
+}
+
+.info-content {
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.info-note {
+    font-size: 24px;
+    font-family:;
+    text-align: center;
+    color: white;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    top: 5%;
+    width: 100%;
+    gap: 20px;
+}
+
+.Menu-bnt1 {
+    padding: 10px 20px;
+    background-color: rgba(252, 252, 252, 0);
+    color: rgb(1, 0, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.Menu-bnt2 {
+    padding: 10px 20px;
+    background-color: rgba(252, 252, 252, 0);
+    color: rgb(1, 0, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.Menu-bnt3 {
+    padding: 10px 20px;
+    background-color: rgba(252, 252, 252, 0);
+    color: rgb(1, 0, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.Menu-bnt4 {
+    padding: 3px 20px;
+    background-color: rgb(8, 1, 1);
+    color: rgb(255, 255, 255);
+    border-radius: 18px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.highlight-text {
+    font-size: 30px;
+    font-family: ;
+    text-align: center;
+}
+
+.info-one {
+    color: aqua;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.info-two {
+    color: #000000;
+    font-family:;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    background-color: #d3d3d3; /* Cor de fundo cinza claro */
+    color: #000;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px; /*adiciona espaço acima do elemento*/
+}
+
+.box:hover {
+    background-color: #000; /* Fundo preto ao passar o cursor */
+    color: #fff; /* Texto branco ao passar o cursor */
+}
+
+.info {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 14px;
+    line-height: 1.5;
+}
